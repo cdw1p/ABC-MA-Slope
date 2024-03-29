@@ -11,7 +11,7 @@ const limit = 1000
 const historicalData = await exchange.fetchOHLCV(symbol, timeframe, undefined, limit)
 
 /**
- * Find maximum subarray
+ * Find the best window size and threshold
  */
 const options = { windowSize: 10, threshold: 0.8 }
 const analyzer = new ArtificialBeeColony(historicalData)
