@@ -1,0 +1,24 @@
+{
+  "name": "abc-ma-slope",
+  "version": "1.0.0",
+  "description": "Artificial Bee Colony Algorithm with Moving Average Slope Algorithm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdw1p/ABC-MA-Slope.git"
+  },
+  "author": "cdw1p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdw1p/ABC-MA-Slope/issues"
+  },
+  "homepage": "https://github.com/cdw1p/ABC-MA-Slope#readme",
+  "dependencies": {
+    "ccxt": "^4.2.86",
+    "moment-timezone": "^0.5.45"
+  }
+}
